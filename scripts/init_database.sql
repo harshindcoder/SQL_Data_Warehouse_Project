@@ -11,6 +11,10 @@ WARNING:
     All data in the database will be permanently deleted. Proceed with caution 
     and ensure you have proper backups before running this script.
 */
+
+-- Drop and recreate the 'DataWarehouse' database in MySQL
+DROP DATABASE IF EXISTS DataWarehouse;
+
 -- Create the 'DataWarehouse' database
 CREATE DATABASE DataWarehouse;
 
