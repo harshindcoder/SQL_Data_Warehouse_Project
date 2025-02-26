@@ -58,21 +58,13 @@ This repository demonstrates a comprehensive data warehousing and analytics solu
 data-warehouse-project/
 ├── datasets/                          # Raw datasets (ERP and CRM)
 ├── docs/                              # Project documentation
-│   ├── etl.drawio                    # ETL process diagram
-│   ├── data_architecture.drawio      # Data architecture diagram
-│   ├── data_catalog.md               # Dataset descriptions and metadata
-│   ├── data_flow.drawio              # Data flow diagram
-│   ├── data_models.drawio            # Star schema model diagram
-│   ├── naming-conventions.md         # Table and column naming guidelines
+│   ├── datawarehouse.drawio      # Data architecture diagram
 ├── scripts/                          # SQL scripts for ETL
 │   ├── bronze/                       # Raw data load scripts
 │   ├── silver/                       # Data transformation scripts
 │   ├── gold/                         # Analytical model scripts
-├── tests/                            # Test scripts for data quality
 ├── README.md                        # Project overview and instructions
 ├── LICENSE                         # Project license (MIT)
-├── .gitignore                      # Git ignore settings
-└── requirements.txt                # Project dependencies
 ```
 
 ---
